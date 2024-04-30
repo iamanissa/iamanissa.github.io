@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Anissa Jones. I'm an avid Ruby on Rails lover. I am an all around curious person and enjoy learning about new technologies. I'm currently getting to know React which this portfolio is written in. I'm excited about future adventures in front-end and back-end so let me know some cool things or how I can help you.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -21,8 +21,8 @@
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-ruby-plain",
+            "name": "Ruby on Rails"
           },
           {
             "class": "devicon-typescript-plain",
@@ -65,8 +65,8 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-ruby-plain",
+            "name": "Ruby on Rails"
           },
           {
             "class": "devicon-typescript-plain",
@@ -81,38 +81,42 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Clickfunnels",
+        "title": "Software Engineer",
+        "years": "11.2021 - 02.2024",
         "mainTech": [
-          "Angular 8/9/10"
+          "Rails"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "Ruby",
+          "Rails",
+          "HTML",
+          "Tailwind ​CSS",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "MySQL",
+          "RESTful API",
+          "Postman",
+          "Minitest"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Peraton (USCIS contract)",
+        "title": "Ruby on Rails Developer",
+        "years": "10.2016 - 11.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Rails"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "Ruby",
+          "Rails",
+          "Devise & Pundit",
+          "HTML",
+          "S​CSS",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Jquery",
+          "PostgreSQL",
+          "Rspec"
         ]
       }
     ]
-  }
+}

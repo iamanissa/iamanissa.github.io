@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
+// import rubyIcon from "@iconify/icons-logos/ruby";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import railsIcon from "@iconify/icons-logos/rails";
 
 class About extends Component {
   render() {
@@ -30,16 +30,16 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
+                  {/* <Icon
+                    icon={rubyIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  /> */}
                   <Icon
-                    icon={angularIcon}
+                    icon={railsIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
