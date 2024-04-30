@@ -1,6 +1,6 @@
 body[data-theme="dark"] {  
 
-   @import '../src/scss/dark-slider.scss';
+   @import './src/scss/dark-slider.scss';
 
    .slider-tab {
       background-color: #8C8C8C;
@@ -33,14 +33,14 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      background-color: #000000;
       h1 {
          color: white;
       }
    }
 
    #about {
-      background-color: #7f7f7f;
+      background-color: #0F172B;
       h1 span {
          color: white;
       }
@@ -54,7 +54,7 @@ body[data-theme="dark"] {
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background: #000000;
       .section-title {
          color: white !important;
       }
@@ -66,9 +66,34 @@ body[data-theme="dark"] {
       }
    }
 
+    #skills {
+      background: #0F172B;
+      min-height: 200px;
+      width: 100%;
+      overflow: hidden;
+      padding-bottom: 10%;
+    }
+
+    .section-title {
+      padding-top: 5%;
+      padding-bottom: 5%;
+      font: 18px/24px 'opensans-bold', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .skill-icon {
+      font-size: 180%;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+
    #resume {
       filter: brightness(80%);
-      background: #5b5b5b;
+      background: #000000;
       .section-title {
          color: white !important;
       }
