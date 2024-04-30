@@ -1,0 +1,72 @@
+{
+    "basic_info": {
+      "name": "Anissa Jones",
+      "titles": [
+        "Ruby on Rails Developer",
+        "508 accessibility promoter",
+        "Inquisitive"
+      ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Ruby",
+          "class": "devicon-ruby-plain",
+          "level": "90"
+        },
+        {
+          "name": "Rails",
+          "class": "devicon-rails-plain-wordmark",
+          "level": "90"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "85"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "85"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "30"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "65"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "85"
+        },
+        {
+          "name": "Rspec",
+          "class": "devicon-rspec-plain",
+          "level": "80"
+        }
+      ]
+    }
+}
