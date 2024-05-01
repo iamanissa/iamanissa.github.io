@@ -1,6 +1,7 @@
 {
-  "name": "https://iamanissa.github.io/",
+  "name": "iamanissa.github.io",
   "version": "0.1.0",
+  "homepage": "https://iamanissa.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.2",

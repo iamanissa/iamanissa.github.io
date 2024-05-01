@@ -1,4 +1,11 @@
-body[data-theme="dark"] {  
+$primary-text: #E2E8F0;
+$secondary-text: #8197BD;
+$accent-color: #3A9688;
+$first-background:#8C8C8C;
+$second-background: #0F172B;
+$accent-background: #152D49;
+
+body[data-theme="dark"] {
 
    @import './src/scss/dark-slider.scss';
 
@@ -7,11 +14,11 @@ body[data-theme="dark"] {
    }
 
    .title-styles {
-      color: white;
+      color: $secondary-text;
    }
 
    .header-icon {
-      color: #3C342C;
+      color: $secondary-text;
       opacity: 0.8;
    }
 
@@ -33,7 +40,7 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #000000;
+      background-color: $second-background;
       h1 {
          color: white;
       }
@@ -42,14 +49,23 @@ body[data-theme="dark"] {
    #about {
       background-color: #0F172B;
       h1 span {
-         color: white;
+        color: $accent-color;
       }
       .polaroid span {
-         background:  #6d6d6d;
+        background: $second-background;
+        border-color: $accent-color;
+        border-width: 5em;
+        -webkit-box-shadow: 0 4px 6px $accent-color;;
+        -moz-box-shadow: 0 4px 6px $accent-color;;
+        box-shadow: 0 4px 6px $accent-color;;
       }
       .card {
-         background: #6d6d6d;
-         color: white;
+        background: $second-background;
+        border-color: $accent-color;
+        color: white;
+      }      
+      .card-header {
+        border-color: $accent-color;
       }
    }
 
@@ -59,7 +75,7 @@ body[data-theme="dark"] {
          color: white !important;
       }
       .foto div {
-         background: #6d6d6d;
+         background: #152D49;
       }
       .project-title-settings {
          color: white;
