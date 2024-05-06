@@ -255,6 +255,17 @@ header h1 {
 	margin: 0 !important;
 }
 
+#resume .devicon-ruby-plain, #resume .devicon-javascript-plain {
+  display: inline-block;
+  width: 100%;
+  margin-left: 15%;
+}
+
+#resume .devicon-javascript-plain {
+  font-size: .90em;
+  margin-left: 20%;
+}
+
 @media only screen and (max-width: 1170px) {
   .experience-icon {
     font-size: 170%;
@@ -262,10 +273,18 @@ header h1 {
     text-align: center;
   }
   
-  .devicon-ruby-plain {
+  #resume .devicon-ruby-plain {
     font-size: 60%;
-    vertical-align: middle;
     margin-bottom: 80%;
+    margin-left: 20%;
+    vertical-align: middle;
+  }
+  
+  #resume .devicon-javascript-plain {
+    font-size: 60%;
+    margin-bottom: 75%;
+    margin-left: 20%;
+    vertical-align: middle;
   }
 }
 

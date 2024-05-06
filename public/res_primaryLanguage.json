@@ -25,8 +25,8 @@
             "name": "Ruby on Rails"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
             "class": "devicon-csharp-plain",
@@ -84,6 +84,7 @@
         "company": "Clickfunnels",
         "title": "Software Engineer",
         "years": "11.2021 - 02.2024",
+        "icon": "devicon-ruby-plain",
         "mainTech": [
           "Rails"
         ],
@@ -91,7 +92,7 @@
           "Ruby",
           "Rails",
           "HTML",
-          "Tailwind ​CSS",
+          "Tailwind CSS",
           "JavaScript",
           "MySQL",
           "RESTful API",
@@ -103,6 +104,7 @@
         "company": "Peraton (USCIS contract)",
         "title": "Ruby on Rails Developer",
         "years": "10.2016 - 11.2021",
+        "icon": "devicon-ruby-plain",
         "mainTech": [
           "Rails"
         ],
@@ -111,7 +113,46 @@
           "Rails",
           "Devise & Pundit",
           "HTML",
-          "S​CSS",
+          "SCSS",
+          "JavaScript",
+          "Jquery",
+          "PostgreSQL",
+          "Rspec"
+        ]
+      },
+      {
+        "company": "Hanover Law",
+        "title": "Marketing Assistant",
+        "years": "08.2016 - 10.2016",
+        "icon": "devicon-javascript-plain",
+        "mainTech": [
+          "JavaScript"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Jquery",
+          "Google Analytics",
+          "Hootsuite",
+          "Yoast SEO",
+          "Microsoft suite"
+        ]
+      },
+      {
+        "company": "Ruby for Good",
+        "title": "Web Developer",
+        "years": "06.2016 - 08.2016",
+        "icon": "devicon-ruby-plain",
+        "mainTech": [
+          "Rails"
+        ],
+        "technologies": [
+          "Ruby",
+          "Rails",
+          "Devise",
+          "HTML",
+          "SCSS",
           "JavaScript",
           "Jquery",
           "PostgreSQL",

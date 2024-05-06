@@ -161,23 +161,17 @@ body[data-theme="dark"] {
         background: $photo-background !important;
       }
 
-      .devicon-ruby-plain{
+      .devicon-ruby-plain, .devicon-javascript-plain{
         color: $accent-color;
-        display: inline-block;
-        width: 100%;
-        margin-left: 10%;
       }
   
-      .experience-icon{
+      .experience-icon, .devicon-javascript-plain{
         color: $accent-color;
       }
       @media only screen and (max-width: 1169px) { 
          .vertical-timeline-element-date {
             color: black;
          }
-        #resume .devicon-ruby-plain {
-          margin-top: 20%;
-        }
       }
    }
 
