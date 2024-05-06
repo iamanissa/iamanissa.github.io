@@ -256,11 +256,17 @@ header h1 {
 }
 
 @media only screen and (max-width: 1170px) {
-	.experience-icon {
-		font-size: 170%;
-		margin-top: 27%;
-		text-align: center;
-	}
+  .experience-icon {
+    font-size: 170%;
+    margin-top: 27%;
+    text-align: center;
+  }
+  
+  .devicon-ruby-plain {
+    font-size: 60%;
+    vertical-align: middle;
+    margin-bottom: 80%;
+  }
 }
 
 .modal-inside .modal-content {

@@ -27,10 +27,10 @@ class Experience extends Component {
             iconStyle={{
               background: "#AE944F",
               color: "#fff",
-              textAlign: "center",
+              // textAlign: "center",
               fontSize: "4em"
             }}
-            icon={<i class="devicon-ruby-plain mx-auto" ></i>}
+            icon={<i class="devicon-ruby-plain" ></i>}
             key={i}
           >
 

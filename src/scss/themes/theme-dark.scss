@@ -160,13 +160,24 @@ body[data-theme="dark"] {
       .vertical-timeline-element-icon {
         background: $photo-background !important;
       }
-      .devicon-ruby-plain, .experience-icon{
+
+      .devicon-ruby-plain{
+        color: $accent-color;
+        display: inline-block;
+        width: 100%;
+        margin-left: 10%;
+      }
+  
+      .experience-icon{
         color: $accent-color;
       }
       @media only screen and (max-width: 1169px) { 
          .vertical-timeline-element-date {
             color: black;
          }
+        #resume .devicon-ruby-plain {
+          margin-top: 20%;
+        }
       }
    }
 
