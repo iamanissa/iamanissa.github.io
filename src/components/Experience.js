@@ -30,7 +30,7 @@ class Experience extends Component {
               textAlign: "center",
               fontSize: "4em"
             }}
-            icon={<i class="devicon-ruby-plain" ></i>}
+            icon={<i class="devicon-ruby-plain mx-auto" ></i>}
             key={i}
           >
 
